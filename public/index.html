@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index_style.css" rel="stylesheet">
+    <title>Chat Room Enter</title>
+</head>
+<body>
+<main>
+    <div class="login-panel">
+        <div class="heading">
+            <h1>VinChat</h1>
+        </div>
+        <div class="enter-username-room">
+            <form action="chat.html">
+                <div class="form-input">
+                    <label for="username">Username</label>
+                    <br>
+                    <input type="text" name="username" id="username" placeholder="Enter Username...." required size=55/>
+                </div>
+                <div class="form-input">
+                    <label for="room_to_join">Room</label>
+                    <br>
+                    <select id="room_to_join" name="room">
+                        <option value="Javascript">Javascript</option>
+                        <option value="HTML">HTML</option>
+                        <option value="Python">Python</option>
+                        <option value="Cpp">C++</option>
+                    </select>
+                </div>
+                <button type="submit" class="butn">Join</button>
+                </form>
+        </div>
+    </div>
+</main>    
+<script src="/socket.io/socket.io.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background-color: #6fc27c;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.app-wrapper{
+    max-width: 1100px;
+    background-color: white;
+    margin: auto;
+    margin-top: 4%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.heading-wrapper{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #008970;
+    color: #99eedf;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    margin: 0;
+    justify-content: space-between;
+    padding-left: 19px;
+}
+.heading-wrapper > h1{
+    font-family: Roboto;
+    font-size: 45px;
+}
+.heading-wrapper > a{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #53a899ee;
+    color: white;
+    height: 90%;
+    width: 13%;
+    padding: 4px;
+    padding-top: 15px;
+    align-content: center;
+}
+.heading-wrapper > a:hover{
+    text-decoration: none;
+    align-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #2a917ec9;
+    color: white;
+}
+
+.chat-main{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar{
+    background-color: #37a987;
+    color: white;
+    padding: 10%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.side-bar > h1{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}
+.room-name-cont{
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 80%;
+    height: 36px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #309275;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.side-bar > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.chat-area{
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.message{
+    font-size: 15px;
+    padding: 8px;
+    margin: 2px 2px 1px 1px;
+    background-color: #6fc27c;
+    max-height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 6px;
+    overflow-y: scroll;
+}
+.meta-data > p{
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+}
+.send-message{
+    background-color: #008970;
+    padding: 13px;
+}
+
+.send-message input[type="text"]{
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    padding: 3px;
+    font-size: 15px;
+}
+
+.send-message > button{
+    color: white;
+    cursor: pointer;
+    width: 8%;
+    height: 85%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #016956;
+    border: none;
+}
+
+.send-message > button:hover{
+    background-color: #005545;
+}

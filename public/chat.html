@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link href="chat_style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="heading-wrapper">
+            <h1>VinChat</h1>
+            <a href="index.html" class="btn">Leave Room</a>
+        </div>
+        <div class="chat-main">
+            <div class="side-bar">
+                <h1>Room Name: </h1>
+                <div class="room-name-cont">JavaScript</div>
+                <h1 class="user">Users</h1>
+                <ul id="user_name_list">
+                </ul>
+            </div>
+            <div class="chat-area">
+                <div class="message">
+                    <div class="meta-data">
+                        <p class="userName">John</p>
+                        <p class="timeMsg">9:12 PM</p>
+                    </div>
+                        Lorem ipsum dolor sit amet. Non obcaecati ratione qui sunt dolores eos facere magni aut omnis nisi aut harum dolorum. Et porro culpa et error aliquid non eaque accusantium.
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="send-message">
+            <input type="text" id="message_to_send" name="message_to_send" placeholder="Enter Message To Send Here: "></input>
+            <button id="click_to_send">Send</button>
+        </div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.2/qs.min.js" integrity="sha512-ErYZLDi4WRoox2JhOIADWBydTRhMJ0KIXnv5C1GvuY8YooLGapnebaM3iRGhwS6/E9ONXj0MRXp6bhu73sdFkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

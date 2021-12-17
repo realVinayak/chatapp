@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: #6fc27c;
+}
+.login-panel{
+    margin: auto;
+    background-color: #37a987;
+    padding: 0;
+    width: 30%;
+    font-family: 'Roboto';
+    height: 60%;
+    margin-top: 10%;
+}
+.heading{
+    text-align: center;
+    padding: 9px;
+    background-color: #008970;
+    color: #99eedf;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 40%;
+}
+
+.enter-username-room{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #37a987;
+    color: white;
+}
+.enter-username-room input[type='text']{
+    font-size: 16px;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+}
+
+.enter-username-room select{
+    font-size: 16px;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+}
+.form-input{
+    margin-top: 10px;
+}
+.butn{
+    cursor: pointer;
+    background-color: #388d5d;
+    padding: 10px;
+    font-size: 20px;
+    height: 10%;
+    width: 70%;
+    color: white;
+    margin-left: 15%;
+    border: none;
+}
+
+.butn:hover{
+    cursor: pointer;
+    background-color: #628b74;
+    padding: 10px;
+    font-size: 20px;
+    height: 10%;
+    width: 70%;
+    color: white;
+    margin-left: 15%;
+}
