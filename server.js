@@ -7,7 +7,7 @@ const {joinUser, findUser, removeUser, getUsersByRoom} = require('./utils/users'
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 const server = http.createServer(app);
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 const io = socketio(server)
 const botName = "VinChat Bot";
 io.on('connection', socket=>{
